@@ -60,5 +60,5 @@ export function useReveal() {
     }, { threshold: 0.14 });
     els.forEach(e => io.observe(e));
     return () => io.disconnect();
-  });
+  }, []);
 }
