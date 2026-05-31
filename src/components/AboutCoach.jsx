@@ -1,4 +1,4 @@
-import { Icon } from '../data.js';
+import { Icon } from '../data.jsx';
 
 const FOCUS = [
   { ic: "bolt",   t: "Stick Skills & Wall Ball", d: "Cleaner catches, both hands, faster release." },

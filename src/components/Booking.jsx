@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { COACH, Icon } from '../data.js';
+import { COACH, Icon } from '../data.jsx';
 
 export default function Booking() {
   const ref = useRef(null);

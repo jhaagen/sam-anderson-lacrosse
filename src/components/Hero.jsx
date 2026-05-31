@@ -1,4 +1,4 @@
-import { COACH, Icon } from '../data.js';
+import { COACH, Icon } from '../data.jsx';
 
 function HeroKicker() {
   return (

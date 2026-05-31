@@ -1,4 +1,4 @@
-import { COACH, HomesteadMark, RevoltMark, Icon } from '../data.js';
+import { COACH, HomesteadMark, RevoltMark, Icon } from '../data.jsx';
 
 export default function TopBar() {
   return (

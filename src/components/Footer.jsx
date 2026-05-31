@@ -1,4 +1,4 @@
-import { COACH, HomesteadMark, RevoltMark } from '../data.js';
+import { COACH, HomesteadMark, RevoltMark } from '../data.jsx';
 
 export default function Footer() {
   return (

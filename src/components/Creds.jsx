@@ -1,4 +1,4 @@
-import { HomesteadMark, RevoltMark } from '../data.js';
+import { HomesteadMark, RevoltMark } from '../data.jsx';
 
 export default function Creds() {
   return (
