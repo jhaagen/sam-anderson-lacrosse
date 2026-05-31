@@ -6,7 +6,7 @@ export default function About() {
       <div className="wrap about">
         <div className="about__photo reveal">
           <div className="frame">
-            <img src="/assets/coach.jpg" alt="Coach Sam Anderson" />
+            <img src="/assets/coach.jpg" alt="Coach Sam Anderson" loading="lazy" />
           </div>
           <span className="tag">Coach Sam</span>
         </div>
