@@ -7,9 +7,9 @@ export default function About() {
         <div className="about__photo reveal">
           <div className="frame">
             <picture>
-              <source srcSet="/assets/coach.webp" type="image/webp" />
-              <img src="/assets/coach-opt.jpg" alt="Coach Sam Anderson"
-                   width="1800" height="2700" loading="lazy" />
+              <source srcSet="/assets/sam-sideline-sm.webp 450w, /assets/sam-sideline.webp 900w" type="image/webp" />
+              <img src="/assets/sam-sideline.jpg" alt="Coach Sam Anderson on the sideline in Homestead lacrosse coaching gear"
+                   width="900" height="1350" loading="lazy" />
             </picture>
           </div>
           <span className="tag">Coach Sam</span>
