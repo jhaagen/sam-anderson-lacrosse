@@ -4,7 +4,7 @@ export const COACH = {
   name: "Sam Anderson",
   email: "sam29anderson@yahoo.com",
   location: "Homestead Soccer Fields",
-  calendlyUrl: "",
+  bookingUrl: "https://cal.com/sam-anderson3/private-lacrosse-lesson",
 };
 
 export const DATES = [

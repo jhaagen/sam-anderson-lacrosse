@@ -1,27 +1,7 @@
-import { useRef, useEffect } from 'react';
 import { COACH, Icon } from '../data.jsx';
 
 export default function Booking() {
-  const ref = useRef(null);
-  const url = COACH.calendlyUrl;
-
-  useEffect(() => {
-    if (!url || !ref.current) return;
-    function init() {
-      if (window.Calendly && ref.current) {
-        ref.current.innerHTML = "";
-        window.Calendly.initInlineWidget({ url, parentElement: ref.current });
-      }
-    }
-    if (window.Calendly) {
-      init();
-    } else {
-      const t = setInterval(() => {
-        if (window.Calendly) { clearInterval(t); init(); }
-      }, 250);
-      return () => clearInterval(t);
-    }
-  }, [url]);
+  const url = COACH.bookingUrl;
 
   return (
     <section className="section" id="book" style={{ background: "var(--cream)" }}>
@@ -33,14 +13,20 @@ export default function Booking() {
         </div>
         <div className="cal-shell reveal">
           {url ? (
-            <div className="cal-embed" ref={ref}></div>
+            <iframe
+              src={url + "?embed=true"}
+              className="cal-embed"
+              title="Book a Lacrosse Lesson"
+              loading="lazy"
+              style={{ width: "100%", height: "700px", border: "none" }}
+            />
           ) : (
             <div className="cal-placeholder">
               <div className="pin"><Icon name="cal" size={28} /></div>
               <h3>Online Scheduler Coming Soon</h3>
               <p>
-                Sam's Calendly booking calendar will appear right here. In the meantime,
-                the fastest way to reserve a session is to email him directly.
+                The booking calendar will appear right here. In the meantime,
+                the fastest way to reserve a session is to email Sam directly.
               </p>
               <a className="btn" href={"mailto:" + COACH.email + "?subject=Lacrosse%20Lesson%20Booking"}>
                 <Icon name="mail" size={18} /> Book by Email
