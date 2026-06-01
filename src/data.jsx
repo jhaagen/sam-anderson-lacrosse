@@ -3,7 +3,7 @@ import React from 'react';
 export const COACH = {
   name: "Sam Anderson",
   email: "sam29anderson@yahoo.com",
-  location: "Homestead Soccer Fields",
+  location: "Homestead Soccer Fields, Fort Wayne IN",
   bookingUrl: "https://cal.com/sam-anderson3/private-lacrosse-lesson",
 };
 
