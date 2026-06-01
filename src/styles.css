@@ -323,6 +323,7 @@ h1,h2,h3,h4{ margin:0; font-family: var(--font-head); font-weight:600; line-heig
 .about__creds .c{
   display:flex; align-items:center; gap:14px; background: var(--paper);
   border:1px solid var(--cream-2); border-radius: var(--r); padding:14px 18px; flex:1 1 240px;
+  color: var(--ink);
 }
 .about__creds .c img.hs{ height:46px; }
 .about__creds .c img.rv{ height:24px; }
