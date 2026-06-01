@@ -11,7 +11,7 @@ function HeroKicker() {
 function HeroMeta() {
   return (
     <div className="hero__meta">
-      <div className="mi"><span className="k">Who</span><span className="v">Youth – High School Boys</span></div>
+      <div className="mi"><span className="k">Who</span><span className="v">Youth–College Players</span></div>
       <div className="mi"><span className="k">Format</span><span className="v">1‑on‑1 &amp; Small Group</span></div>
       <div className="mi"><span className="k">Where</span><span className="v">{COACH.location}</span></div>
     </div>

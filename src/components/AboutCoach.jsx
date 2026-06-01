@@ -15,7 +15,7 @@ export default function AboutCoach() {
           <span className="eyebrow" style={{ color: "var(--blue)" }}>About Coach Sam</span>
           <h2>Coaching With A Plan</h2>
           <p>
-            Sam has spent nearly a decade around the game — a four‑year collegiate midfielder
+            Sam has spent nearly a decade around the game — a five‑year collegiate defenseman
             turned full‑time coach. Today he's Head Coach of Homestead Lacrosse and Director of
             Revolt Lacrosse, where his teams are built on fundamentals, competitiveness, and
             players who steadily get better.
@@ -28,7 +28,7 @@ export default function AboutCoach() {
           <div className="aboutc__stats">
             <div className="stat"><span className="n">8+</span><span className="l">Years Coaching</span></div>
             <div className="stat"><span className="n">100+</span><span className="l">Athletes Coached</span></div>
-            <div className="stat"><span className="n">4</span><span className="l">Yrs College Player</span></div>
+            <div className="stat"><span className="n">5</span><span className="l">Yrs College Player</span></div>
           </div>
         </div>
 
