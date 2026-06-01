@@ -409,7 +409,7 @@ h1,h2,h3,h4{ margin:0; font-family: var(--font-head); font-weight:600; line-heig
 .footer .marks img.rv{ height:26px; }
 .footer .marks .divider{ width:1px;height:30px;background:var(--navy-3); }
 .footer a{ color: var(--gold-2); text-decoration:none; }
-.footer small{ display:block; margin-top:8px; font-size:.82rem; color: rgba(247,245,239,.45); }
+.footer small{ display:block; margin-top:8px; font-size:.82rem; color: rgba(247,245,239,.62); }
 
 /* ============================================================
    Reveal on scroll

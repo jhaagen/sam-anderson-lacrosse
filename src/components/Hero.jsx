@@ -33,7 +33,11 @@ export default function Hero() {
   return (
     <header className="hero hero--stadium">
       <div className="hero__bg">
-        <img src="/assets/coach.jpg" alt="Coach Sam Anderson directing a session" />
+        <picture>
+          <source srcSet="/assets/coach-sm.webp 900w, /assets/coach.webp 1800w" type="image/webp" />
+          <img src="/assets/coach-opt.jpg" alt="Coach Sam Anderson directing a session"
+               width="1800" height="2700" fetchpriority="high" />
+        </picture>
       </div>
       <div className="hero__scrim"></div>
       <div className="hero__field"></div>

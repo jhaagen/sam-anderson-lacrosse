@@ -6,7 +6,11 @@ export default function About() {
       <div className="wrap about">
         <div className="about__photo reveal">
           <div className="frame">
-            <img src="/assets/coach.jpg" alt="Coach Sam Anderson" loading="lazy" />
+            <picture>
+              <source srcSet="/assets/coach.webp" type="image/webp" />
+              <img src="/assets/coach-opt.jpg" alt="Coach Sam Anderson"
+                   width="1800" height="2700" loading="lazy" />
+            </picture>
           </div>
           <span className="tag">Coach Sam</span>
         </div>

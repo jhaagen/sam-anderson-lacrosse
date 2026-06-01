@@ -39,7 +39,7 @@ export function Icon({ name, size = 20, stroke = 2 }) {
 }
 
 export function HomesteadMark({ className = "" }) {
-  return <img className={className} src="/assets/homestead-logo.png" alt="Homestead Lacrosse" />;
+  return <img className={className} src="/assets/homestead-logo.webp" alt="Homestead Lacrosse" />;
 }
 
 export function RevoltMark({ className = "" }) {
