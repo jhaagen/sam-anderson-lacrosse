@@ -4,7 +4,7 @@ export const COACH = {
   name: "Sam Anderson",
   email: "sam29anderson@yahoo.com",
   location: "Homestead Soccer Fields, Fort Wayne IN",
-  bookingUrl: "https://cal.com/sam-anderson3/private-lacrosse-lesson",
+  bookingUrl: "https://calendly.com/sam29anderson/private-lacrosse-lesson",
 };
 
 export const DATES = [

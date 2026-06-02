@@ -14,7 +14,7 @@ export default function Booking() {
         <div className="cal-shell reveal">
           {url ? (
             <iframe
-              src={url + "?embed=true"}
+              src={url + "?embed_type=Inline&hide_event_type_details=1&hide_gdpr_banner=1"}
               className="cal-embed"
               title="Book a Lacrosse Lesson"
               loading="lazy"
