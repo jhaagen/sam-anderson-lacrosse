@@ -14,6 +14,12 @@ function HeroMeta() {
       <div className="mi"><span className="k">Who</span><span className="v">Youth–College Players</span></div>
       <div className="mi"><span className="k">Format</span><span className="v">1‑on‑1 &amp; Small Group</span></div>
       <div className="mi"><span className="k">Where</span><span className="v">{COACH.location}</span></div>
+      <div className="mi">
+        <span className="k">Pricing</span>
+        <a className="v hero__pricing-link" href={"mailto:" + COACH.email + "?subject=Lacrosse%20Lesson%20Pricing"}>
+          Contact for pricing
+        </a>
+      </div>
     </div>
   );
 }

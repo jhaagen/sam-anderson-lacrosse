@@ -160,6 +160,8 @@ h1,h2,h3,h4{ margin:0; font-family: var(--font-head); font-weight:600; line-heig
 .hero__meta .mi{ display:flex; flex-direction:column; gap:4px; }
 .hero__meta .mi .k{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.18em; font-size:.7rem; color:var(--gold-2); }
 .hero__meta .mi .v{ font-size:1.05rem; color: var(--cream); font-weight:500; }
+.hero__pricing-link{ color: var(--gold-2); text-decoration:underline; text-underline-offset:3px; }
+.hero__pricing-link:hover{ color:#fff; }
 .hero__photo img{ width:100%; height:100%; object-fit:cover; object-position: 60% 22%; }
 
 /* texture: faint field lines */
@@ -336,6 +338,14 @@ h1,h2,h3,h4{ margin:0; font-family: var(--font-head); font-weight:600; line-heig
    BOOKING / CALENDLY
    ============================================================ */
 .booking__grid{ display:grid; grid-template-columns: 1fr; gap:34px; }
+.booking__pricing{
+  display:flex; align-items:center; gap:10px; margin-bottom:22px;
+  background: var(--navy); color: var(--cream); border-radius: var(--r);
+  padding:16px 22px; font-size:1rem;
+}
+.booking__pricing svg{ flex:none; color: var(--gold-2); }
+.booking__pricing a{ color: var(--gold-2); font-weight:600; text-decoration:underline; text-underline-offset:3px; }
+.booking__pricing a:hover{ color:#fff; }
 .cal-shell{
   background: var(--paper); border-radius: var(--r); overflow:hidden;
   border:1px solid var(--cream-2); box-shadow: var(--shadow-sm);

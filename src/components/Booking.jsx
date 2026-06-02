@@ -11,6 +11,11 @@ export default function Booking() {
           <h2>Reserve Your Lesson</h2>
           <p>Choose a date and time below, or email Sam directly and we'll set it up together.</p>
         </div>
+        <div className="booking__pricing reveal">
+          <Icon name="mail" size={18} />
+          <span>Questions about pricing or packages? <a href={"mailto:" + COACH.email + "?subject=Lacrosse%20Lesson%20Pricing"}>Email Sam directly</a> — he'll get back to you personally.</span>
+        </div>
+
         <div className="cal-shell reveal">
           {url ? (
             <iframe
