@@ -4,12 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Primary meta -->
   <title>Private Lacrosse Lessons Fort Wayne IN | Coach Sam Anderson</title>
   <meta name="description" content="Private lacrosse lessons in Fort Wayne, Indiana with Coach Sam Anderson — head coach of Homestead Lacrosse and director of Revolt Lacrosse. Youth through college-age players, all skill levels. Book your session today." />
   <link rel="canonical" href="https://fortwaynelacrosselessons.com/" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://fortwaynelacrosselessons.com/" />
   <meta property="og:title" content="Private Lacrosse Lessons Fort Wayne IN | Coach Sam Anderson" />
@@ -21,13 +19,11 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Fort Wayne Lacrosse Lessons" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Private Lacrosse Lessons Fort Wayne IN | Coach Sam Anderson" />
   <meta name="twitter:description" content="One-on-one lacrosse training in Fort Wayne, Indiana. Youth through college-age players, all skill levels." />
   <meta name="twitter:image" content="https://fortwaynelacrosselessons.com/assets/og-image.webp" />
 
-  <!-- JSON-LD structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -47,10 +43,7 @@
     "areaServed": {
       "@type": "City",
       "name": "Fort Wayne",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Indiana"
-      }
+      "containedInPlace": { "@type": "State", "name": "Indiana" }
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -80,29 +73,491 @@
       "jobTitle": "Lacrosse Coach",
       "email": "sam29anderson@yahoo.com",
       "worksFor": [
-        {
-          "@type": "SportsOrganization",
-          "name": "Homestead Lacrosse",
-          "url": "https://homesteadlacrosse.com"
-        },
-        {
-          "@type": "SportsOrganization",
-          "name": "Revolt Lacrosse"
-        }
+        { "@type": "SportsOrganization", "name": "Homestead Lacrosse", "url": "https://homesteadlacrosse.com" },
+        { "@type": "SportsOrganization", "name": "Revolt Lacrosse" }
       ]
     }
   }
   </script>
 
-  <link rel="icon" href="data:,">
-  <link rel="preload" as="image" href="/assets/coach.webp" type="image/webp" fetchpriority="high" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
+  <link rel="icon" href="data:," />
+  <link rel="preload" as="image"
+        href="/assets/coach.webp"
+        imagesrcset="/assets/coach-sm.webp 900w, /assets/coach.webp 1800w"
+        imagesizes="100vw"
+        type="image/webp" fetchpriority="high" />
+  <link rel="preload" as="font" href="/assets/fonts/anton-regular.woff2" type="font/woff2" crossorigin />
+  <link rel="preload" as="font" href="/assets/fonts/oswald-semibold.woff2" type="font/woff2" crossorigin />
+
+  <style>
+@font-face { font-family: 'Anton';  font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/anton-regular.woff2')   format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/oswald-regular.woff2')  format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/fonts/oswald-medium.woff2')   format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/fonts/oswald-semibold.woff2') format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 700; font-display: swap; src: url('/assets/fonts/oswald-bold.woff2')     format('woff2'); }
+@font-face { font-family: 'Barlow'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/barlow-regular.woff2')  format('woff2'); }
+@font-face { font-family: 'Barlow'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/fonts/barlow-medium.woff2')   format('woff2'); }
+@font-face { font-family: 'Barlow'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/fonts/barlow-semibold.woff2') format('woff2'); }
+@font-face { font-family: 'Barlow'; font-style: normal; font-weight: 700; font-display: swap; src: url('/assets/fonts/barlow-bold.woff2')     format('woff2'); }
+
+/* ============================================================
+   Sam Anderson — Private Lacrosse Lessons
+   Brand system: Revolt navy/black + Homestead royal blue + shared gold
+   ============================================================ */
+
+:root{
+  --navy:      #0F161F;
+  --navy-2:    #161E2B;
+  --navy-3:    #1F2A3B;
+  --blue:      #0057A7;
+  --blue-2:    #1A74CB;
+  --gold:      #F2C230;
+  --gold-2:    #FFD233;
+  --gold-deep: #C7951C;
+  --cream:     #F7F5EF;
+  --cream-2:   #ECE8DD;
+  --ink:       #11151C;
+  --ink-soft:  #3A424E;
+  --paper:     #FFFFFF;
+  --lead:        var(--navy);
+  --lead-soft:   var(--navy-2);
+  --accent:      var(--gold);
+  --accent-deep: var(--gold-deep);
+  --link-on-dark: var(--gold-2);
+  --maxw: 1180px;
+  --r: 4px;
+  --shadow: 0 24px 60px -28px rgba(15,22,31,.55);
+  --shadow-sm: 0 10px 26px -16px rgba(15,22,31,.5);
+  --font-display: "Anton", "Oswald", sans-serif;
+  --font-head: "Oswald", sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+}
+[data-lead="navy"]{  --lead: var(--navy);  --lead-soft: var(--navy-2); }
+[data-lead="blue"]{  --lead: var(--blue);  --lead-soft: #0A4C92; }
+[data-lead="blend"]{ --lead: var(--navy);  --lead-soft: #12243C; }
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+body{ margin:0; font-family: var(--font-body); color: var(--ink); background: var(--cream); -webkit-font-smoothing: antialiased; font-size: 18px; line-height: 1.6; }
+img{ display:block; max-width:100%; }
+a{ color: inherit; }
+h1,h2,h3,h4{ margin:0; font-family: var(--font-head); font-weight:600; line-height:1.02; letter-spacing:.01em; }
+.wrap{ width: min(100% - 48px, var(--maxw)); margin-inline:auto; }
+.eyebrow{ font-family: var(--font-head); text-transform: uppercase; letter-spacing:.26em; font-weight:600; font-size:.78rem; }
+.gold-rule{ height:4px; width:64px; background: var(--accent); border:0; margin:0; }
+.btn{ --bg: var(--accent); --fg: var(--navy); display:inline-flex; align-items:center; gap:.6em; font-family: var(--font-head); text-transform: uppercase; letter-spacing:.12em; font-weight:600; font-size:.96rem; padding:.9em 1.55em; background: var(--bg); color: var(--fg); border:2px solid var(--bg); border-radius: var(--r); text-decoration:none; cursor:pointer; transition: transform .14s ease, background .18s ease, color .18s ease, box-shadow .18s ease; line-height:1; }
+.btn:hover{ transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.btn:active{ transform: translateY(0); }
+.btn .arrow{ transition: transform .18s ease; }
+.btn:hover .arrow{ transform: translateX(3px); }
+.btn--ghost{ --bg: transparent; --fg: var(--cream); border-color: rgba(247,245,239,.4); }
+.btn--ghost:hover{ --fg: var(--navy); background: var(--cream); border-color: var(--cream); }
+.btn--blue{ --bg: var(--blue); --fg:#fff; }
+.btn--lg{ font-size:1.05rem; padding:1.05em 1.9em; }
+.topbar{ position: sticky; top:0; z-index:40; background: color-mix(in srgb, var(--navy) 92%, transparent); backdrop-filter: blur(10px); border-bottom:1px solid var(--navy-3); }
+.topbar__in{ display:flex; align-items:center; gap:18px; padding:12px 0; min-height:64px; }
+.topbar .marks{ display:flex; align-items:center; gap:14px; }
+.topbar .marks img{ height:40px; width:auto; }
+.topbar .marks .revolt{ height:24px; }
+.topbar .marks .divider{ width:1px; height:30px; background: var(--navy-3); }
+.topbar .spacer{ flex:1; }
+.topbar__name{ font-family: var(--font-head); color: var(--cream); text-transform: uppercase; letter-spacing:.16em; font-size:.95rem; font-weight:600; display:none; white-space:nowrap; }
+.topbar__mail{ color: var(--cream); text-decoration:none; font-weight:600; font-size:.95rem; letter-spacing:.01em; opacity:.92; display:none; }
+.topbar__mail:hover{ color: var(--gold-2); }
+@media(min-width:880px){ .topbar__mail{ display:inline-flex; align-items:center; gap:.5em; } }
+@media(min-width:1080px){ .topbar__name{ display:inline-flex; align-items:center; gap:.5em; } }
+.hero{ position:relative; background: var(--lead); color: var(--cream); overflow:hidden; }
+.hero__kicker{ display:inline-flex; align-items:center; gap:10px; color: var(--gold-2); margin-bottom:22px; }
+.hero__kicker .dot{ width:7px;height:7px;border-radius:50%;background:var(--gold-2); }
+.hero h1{ font-family: var(--font-display); font-weight:400; text-transform: uppercase; letter-spacing:.005em; line-height:.92; color: var(--cream); }
+.hero h1 em{ font-style:normal; color: var(--gold-2); }
+.hero__lead{ max-width: 46ch; color: rgba(247,245,239,.82); font-size:1.18rem; margin-top:22px; }
+.hero__cta{ display:flex; flex-wrap:wrap; gap:14px; margin-top:34px; align-items:center; }
+.hero__meta{ display:flex; flex-wrap:wrap; gap:26px 38px; margin-top:42px; }
+.hero__meta .mi{ display:flex; flex-direction:column; gap:4px; }
+.hero__meta .mi .k{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.18em; font-size:.7rem; color:var(--gold-2); }
+.hero__meta .mi .v{ font-size:1.05rem; color: var(--cream); font-weight:500; }
+.hero__pricing-link{ color: var(--gold-2); text-decoration:underline; text-underline-offset:3px; }
+.hero__pricing-link:hover{ color:#fff; }
+.hero__photo img{ width:100%; height:100%; object-fit:cover; object-position: 60% 22%; }
+.hero__field{ position:absolute; inset:0; pointer-events:none; opacity:.5; background-image: repeating-linear-gradient(90deg, transparent 0 118px, rgba(255,255,255,.04) 118px 120px); mask-image: linear-gradient(90deg, transparent, #000 30%, #000 70%, transparent); }
+.hero--stadium{ min-height: clamp(520px, 75vh, 720px); display:flex; align-items:stretch; }
+.hero--stadium .hero__bg{ position:absolute; inset:0; }
+.hero--stadium .hero__bg img{ width:100%; height:100%; object-fit:cover; object-position: 62% 24%; }
+.hero--stadium .hero__scrim{ position:absolute; inset:0; background: linear-gradient(90deg, var(--lead) 0%, color-mix(in srgb,var(--lead) 86%, transparent) 38%, color-mix(in srgb,var(--lead) 22%, transparent) 64%, transparent 88%), linear-gradient(0deg, var(--lead) 2%, transparent 36%); }
+.hero--stadium .hero__in{ position:relative; display:flex; align-items:center; width:100%; padding:56px 0; }
+.hero--stadium h1{ font-size: clamp(3.4rem, 8.4vw, 7rem); }
+.hero--stadium .hero__col{ max-width: 660px; }
+.creds{ background: var(--cream); border-bottom:1px solid var(--cream-2); }
+.creds__in{ display:flex; align-items:center; gap:30px; flex-wrap:wrap; padding:26px 0; justify-content:center; }
+.creds .label{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.2em; font-size:.74rem; color: var(--ink-soft); }
+.creds .org{ display:flex; align-items:center; gap:12px; }
+.creds .org img.hs{ height:64px; }
+.creds .org img.rv{ height:38px; }
+.creds .org .role{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.05em; line-height:1.05; }
+.creds .org .role b{ display:block; font-size:.98rem; color:var(--ink); white-space:nowrap; }
+.creds .org .role span{ display:block; font-size:.74rem; letter-spacing:.16em; color:var(--ink-soft); white-space:nowrap; }
+.creds .vr{ width:1px; height:46px; background: var(--cream-2); }
+.section{ padding: clamp(64px, 9vw, 120px) 0; }
+.section--navy{ background: var(--navy); color: var(--cream); }
+.section--blue{ background: var(--blue); color:#fff; }
+.section__head{ max-width: 640px; margin-bottom: 52px; }
+.section__head.center{ margin-inline:auto; text-align:center; }
+.section__head .eyebrow{ display:block; }
+.section__head h2{ font-size: clamp(2.1rem, 4.4vw, 3.4rem); text-transform:uppercase; line-height:1.04; margin:14px 0 0; }
+.section__head p{ font-size:1.12rem; color: var(--ink-soft); margin:16px 0 0; }
+.section--navy .section__head p{ color: rgba(247,245,239,.78); }
+.section--navy .eyebrow, .section--blue .eyebrow{ color: var(--gold-2); }
+.aboutc{ display:grid; grid-template-columns: 1.05fr .95fr; gap: clamp(32px,5vw,72px); align-items:center; }
+.aboutc__intro .eyebrow{ display:block; }
+.aboutc__intro h2{ font-size: clamp(2rem,4.2vw,3.2rem); text-transform:uppercase; line-height:1.04; margin:14px 0 0; }
+.aboutc__intro p{ color: var(--ink-soft); margin:18px 0 0; font-size:1.1rem; max-width:56ch; }
+.aboutc__stats{ display:flex; flex-wrap:wrap; gap:26px 44px; margin-top:34px; }
+.aboutc__stats .stat{ display:flex; flex-direction:column; }
+.aboutc__stats .n{ font-family:var(--font-display); font-size:2.7rem; line-height:.9; color: var(--blue); }
+.aboutc__stats .l{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.14em; font-size:.72rem; color: var(--ink-soft); margin-top:8px; }
+.focuscard{ background: var(--navy); color: var(--cream); border-radius: var(--r); padding: clamp(26px,3.2vw,38px); box-shadow: var(--shadow); }
+.focuscard h3{ font-family:var(--font-head); text-transform:uppercase; font-size:1.15rem; letter-spacing:.06em; color: var(--gold-2); margin-bottom:20px; }
+.focuslist{ display:grid; gap:18px; }
+.focusrow{ display:flex; gap:14px; align-items:flex-start; }
+.focusrow .ic{ width:44px; height:44px; border-radius: var(--r); flex:none; background: color-mix(in srgb, var(--gold) 16%, transparent); color: var(--gold-2); display:grid; place-items:center; }
+.focusrow .t b{ display:block; font-family:var(--font-head); text-transform:uppercase; letter-spacing:.04em; font-size:1rem; color: var(--cream); }
+.focusrow .t span{ font-size:.93rem; color: rgba(247,245,239,.72); }
+@media(max-width:880px){ .aboutc{ grid-template-columns:1fr; } }
+.about{ display:grid; grid-template-columns: .82fr 1.18fr; gap: clamp(28px,5vw,72px); align-items:center; }
+.about__photo{ position:relative; }
+.about__photo .frame{ position:relative; border-radius: var(--r); overflow:hidden; box-shadow: var(--shadow); aspect-ratio: 3/4; }
+.about__photo .frame img{ width:100%; height:100%; object-fit:cover; object-position:center 18%; }
+.about__photo .tag{ position:absolute; right:-14px; bottom:26px; background: var(--gold); color:var(--navy); font-family:var(--font-head); text-transform:uppercase; padding:.7em 1.1em; letter-spacing:.08em; font-weight:600; box-shadow: var(--shadow-sm); border-radius:var(--r); }
+.about__body h2{ font-size: clamp(2rem,4vw,3.1rem); text-transform:uppercase; margin:14px 0 0; }
+.about__body p{ color: var(--ink-soft); margin:18px 0 0; font-size:1.1rem; max-width:54ch; }
+.section--navy .about__body p{ color: rgba(247,245,239,.84); }
+.section--navy .about__body p em{ color: var(--gold-2); font-style:normal; }
+.about__creds{ display:flex; gap:14px; flex-wrap:wrap; margin-top:30px; }
+.about__creds .c{ display:flex; align-items:center; gap:14px; background: var(--paper); border:1px solid var(--cream-2); border-radius: var(--r); padding:14px 18px; flex:1 1 240px; color: var(--ink); }
+.about__creds .c img.hs{ height:56px; }
+.about__creds .c img.rv{ height:30px; }
+.about__creds .c .t{ font-family:var(--font-head); text-transform:uppercase; line-height:1.1; }
+.about__creds .c .t b{ display:block; font-size:.95rem; white-space:nowrap; }
+.about__creds .c .t span{ display:block; font-size:.72rem; letter-spacing:.14em; color: var(--ink-soft); white-space:nowrap; }
+@media(max-width:820px){ .about{ grid-template-columns:1fr; } .about__photo .frame{ aspect-ratio:4/3; } }
+.booking__grid{ display:grid; grid-template-columns: 1fr; gap:34px; }
+.booking__pricing{ display:flex; align-items:center; gap:10px; margin-bottom:22px; background: var(--navy); color: var(--cream); border-radius: var(--r); padding:16px 22px; font-size:1rem; }
+.booking__pricing svg{ flex:none; color: var(--gold-2); }
+.booking__pricing a{ color: var(--gold-2); font-weight:600; text-decoration:underline; text-underline-offset:3px; }
+.booking__pricing a:hover{ color:#fff; }
+.cal-shell{ background: var(--paper); border-radius: var(--r); overflow:hidden; border:1px solid var(--cream-2); box-shadow: var(--shadow-sm); min-height: 640px; max-width: 900px; margin-inline: auto; }
+.cal-embed{ min-width:320px; height:680px; }
+.cal-placeholder{ min-height: 560px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:56px 28px; gap:18px; background: repeating-linear-gradient(45deg, var(--cream) 0 18px, #fff 18px 36px); }
+.cal-placeholder .pin{ width:64px;height:64px;border-radius:50%;display:grid;place-items:center; background: var(--navy); color: var(--gold-2); }
+.cal-placeholder h3{ font-family:var(--font-head); text-transform:uppercase; font-size:1.5rem; letter-spacing:.04em; }
+.cal-placeholder p{ color: var(--ink-soft); max-width:46ch; }
+.cal-placeholder code{ background:var(--navy); color:var(--gold-2); padding:.2em .5em; border-radius:3px; font-size:.86em; }
+.big-mail{ display:inline-flex; align-items:center; gap:.6em; margin-top:18px; font-family:var(--font-head); font-size: clamp(1.2rem,2.4vw,1.7rem); color: var(--gold-2); text-decoration:none; letter-spacing:.01em; word-break:break-all; }
+.big-mail:hover{ text-decoration:underline; text-underline-offset:5px; }
+.contact-cta{ max-width: 780px; margin-inline:auto; text-align:center; }
+.contact-cta h2{ font-size: clamp(2rem,4.2vw,3.2rem); text-transform:uppercase; margin:14px 0 0; }
+.contact-cta p{ color: rgba(247,245,239,.82); margin:18px auto 0; font-size:1.14rem; max-width:56ch; }
+.contact-cta .big-mail{ justify-content:center; margin-top:30px; }
+.contact-cta__actions{ display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:30px; }
+.contact-cta__info{ display:flex; flex-wrap:wrap; justify-content:center; gap:24px 48px; margin-top:46px; padding-top:40px; border-top:1px solid var(--navy-3); text-align:left; }
+.contact-cta__info .row{ display:flex; gap:13px; align-items:flex-start; }
+.contact-cta__info .ic{ color: var(--gold-2); margin-top:3px; flex:none; }
+.contact-cta__info .k{ font-family:var(--font-head); text-transform:uppercase; letter-spacing:.16em; font-size:.72rem; color: rgba(247,245,239,.6); }
+.contact-cta__info .v{ color: var(--cream); font-size:1.02rem; }
+.footer{ background: var(--navy); color: rgba(247,245,239,.7); padding:48px 0 40px; border-top:1px solid var(--navy-3); }
+.footer__in{ display:flex; flex-wrap:wrap; align-items:center; gap:24px; justify-content:space-between; }
+.footer .marks{ display:flex; align-items:center; gap:18px; }
+.footer .marks img.hs{ height:46px; }
+.footer .marks img.rv{ height:26px; }
+.footer .marks .divider{ width:1px;height:30px;background:var(--navy-3); }
+.footer a{ color: var(--gold-2); text-decoration:none; }
+.footer small{ display:block; margin-top:8px; font-size:.82rem; color: rgba(247,245,239,.62); }
+.reveal{ opacity:0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.in{ opacity:1; transform:none; }
+@media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; } html{ scroll-behavior:auto; } }
+  </style>
 </head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+<body data-lead="blend">
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="wrap topbar__in">
+      <div class="marks">
+        <img class="hs" src="/assets/homestead-logo.webp" alt="Homestead Lacrosse" width="160" height="40" />
+        <span class="divider"></span>
+        <img class="revolt" src="/assets/revolt-logo.webp" alt="Revolt Lacrosse" width="96" height="24" />
+      </div>
+      <span class="topbar__name">Sam Anderson · Lacrosse Lessons</span>
+      <span class="spacer"></span>
+      <a class="topbar__mail" href="mailto:sam29anderson@yahoo.com">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        sam29anderson@yahoo.com
+      </a>
+      <a class="btn" href="#book">Book a Lesson</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero hero--stadium">
+    <div class="hero__bg">
+      <picture>
+        <source srcset="/assets/coach-sm.webp 900w, /assets/coach.webp 1800w" type="image/webp" />
+        <img src="/assets/coach.webp" alt="Coach Sam Anderson directing a lacrosse session"
+             width="1800" height="2700" fetchpriority="high" />
+      </picture>
+    </div>
+    <div class="hero__scrim"></div>
+    <div class="hero__field"></div>
+    <div class="hero__in">
+      <div class="wrap">
+        <div class="hero__col">
+          <span class="hero__kicker eyebrow">
+            <span class="dot"></span> Summer 2026 · Private Lessons
+          </span>
+          <h1>Private<br /><em>Lacrosse</em><br />Lessons</h1>
+          <p class="hero__lead">
+            Summer one&#8209;on&#8209;one training with Coach Sam Anderson — for youth through
+            high&#8209;school boys of every skill level. Sharpen your stick skills, IQ, and
+            confidence with the head coach of Homestead Lacrosse.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--lg" href="#book">
+              Book a Lesson
+              <span class="arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+            <a class="btn btn--lg btn--ghost" href="mailto:sam29anderson@yahoo.com">Email Sam</a>
+          </div>
+          <div class="hero__meta">
+            <div class="mi"><span class="k">Who</span><span class="v">Youth–College Players</span></div>
+            <div class="mi"><span class="k">Format</span><span class="v">1&#8209;on&#8209;1 &amp; Small Group</span></div>
+            <div class="mi"><span class="k">Where</span><span class="v">Homestead Soccer Fields, Fort Wayne IN</span></div>
+            <div class="mi">
+              <span class="k">Pricing</span>
+              <a class="v hero__pricing-link" href="mailto:sam29anderson@yahoo.com?subject=Lacrosse%20Lesson%20Pricing">
+                Contact for pricing
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CREDIBILITY STRIP -->
+  <section class="creds">
+    <div class="wrap creds__in">
+      <span class="label">Coached by</span>
+      <div class="org">
+        <img class="hs" src="/assets/homestead-logo.webp" alt="Homestead Lacrosse" width="160" height="64" />
+        <span class="role"><b>Homestead Lacrosse</b><span>Head Coach</span></span>
+      </div>
+      <div class="vr"></div>
+      <div class="org">
+        <img class="rv" src="/assets/revolt-logo.webp" alt="Revolt Lacrosse" width="96" height="38" />
+        <span class="role"><b>Revolt Lacrosse</b><span>Director</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT COACH -->
+  <section class="section" id="about-coach" style="background: var(--cream)">
+    <div class="wrap aboutc">
+      <div class="aboutc__intro reveal">
+        <span class="eyebrow" style="color: var(--blue)">About Coach Sam</span>
+        <h2>Coaching With A Plan</h2>
+        <p>
+          Sam has spent nearly a decade around the game — a five&#8209;year collegiate defenseman
+          turned full&#8209;time coach. Today he's Head Coach of Homestead Lacrosse and Director of
+          Revolt Lacrosse, where his teams are built on fundamentals, competitiveness, and
+          players who steadily get better.
+        </p>
+        <p>
+          Every private session is tailored to one athlete and one set of goals. We start
+          with an honest look at where you are, build a simple plan, and put in focused reps —
+          whether you're brand new to the sport or chasing a varsity spot.
+        </p>
+        <div class="aboutc__stats">
+          <div class="stat"><span class="n">8+</span><span class="l">Years Coaching</span></div>
+          <div class="stat"><span class="n">100+</span><span class="l">Athletes Coached</span></div>
+          <div class="stat"><span class="n">5</span><span class="l">Yrs College Player</span></div>
+        </div>
+      </div>
+      <div class="focuscard reveal">
+        <h3>What We'll Work On</h3>
+        <div class="focuslist">
+          <div class="focusrow">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></span>
+            <span class="t"><b>Stick Skills &amp; Wall Ball</b><span>Cleaner catches, both hands, faster release.</span></span>
+          </div>
+          <div class="focusrow">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+            <span class="t"><b>Shooting &amp; Dodging</b><span>Finish on the run and beat your defender 1v1.</span></span>
+          </div>
+          <div class="focusrow">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 8-4-1-7-4-7-8V6l7-3z"/></svg></span>
+            <span class="t"><b>Defense &amp; Footwork</b><span>Approaches, breakdowns, and on-ball pressure.</span></span>
+          </div>
+          <div class="focusrow">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></span>
+            <span class="t"><b>Lacrosse IQ &amp; Vision</b><span>See the field, make the next read, play faster.</span></span>
+          </div>
+        </div>
+        <a class="btn btn--blue" href="#book" style="margin-top: 26px">
+          See Open Times
+          <span class="arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (note from Sam) -->
+  <section class="section section--navy" id="about">
+    <div class="wrap about">
+      <div class="about__photo reveal">
+        <div class="frame">
+          <picture>
+            <source srcset="/assets/sam-sideline-sm.webp 450w, /assets/sam-sideline.webp 900w" type="image/webp" />
+            <img src="/assets/sam-sideline.webp"
+                 alt="Coach Sam Anderson on the sideline in Homestead lacrosse coaching gear"
+                 width="900" height="1350" loading="lazy" />
+          </picture>
+        </div>
+        <span class="tag">Coach Sam</span>
+      </div>
+      <div class="about__body reveal">
+        <span class="eyebrow">A Note From Sam</span>
+        <h2>Let's Make This Summer Count</h2>
+        <p>
+          Hi everyone! I hope the start of your summer has been as relaxing and enjoyable
+          as mine. I'm excited to offer private lacrosse lessons again this summer.
+        </p>
+        <p>
+          Whether you're picking up a stick for the first time or fine&#8209;tuning your game for
+          the next level, these one&#8209;on&#8209;one sessions are built around <em>your</em> goals —
+          stick skills, shooting, dodging, defense, and lacrosse IQ. All ages and skill
+          levels are welcome. I look forward to working with you!
+        </p>
+        <div class="about__creds">
+          <div class="c">
+            <img class="hs" src="/assets/homestead-logo.webp" alt="Homestead Lacrosse" width="160" height="56" />
+            <span class="t"><b>Homestead Lacrosse</b><span>Head Coach</span></span>
+          </div>
+          <div class="c">
+            <img class="rv" src="/assets/revolt-logo.webp" alt="Revolt Lacrosse" width="96" height="30" />
+            <span class="t"><b>Revolt Lacrosse</b><span>Director</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section" id="book" style="background: var(--cream)">
+    <div class="wrap">
+      <div class="section__head center reveal">
+        <span class="eyebrow" style="color: var(--blue)">Book Online</span>
+        <h2>Reserve Your Lesson</h2>
+        <p>Choose a date and time below, or email Sam directly and we'll set it up together.</p>
+      </div>
+      <div class="booking__pricing reveal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <span>Questions about pricing or packages?
+          <a href="mailto:sam29anderson@yahoo.com?subject=Lacrosse%20Lesson%20Pricing">Email Sam directly</a>
+          — he'll get back to you personally.
+        </span>
+      </div>
+      <div class="cal-shell reveal">
+        <div id="cal-target" class="cal-placeholder">
+          <div class="pin">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
+          </div>
+          <h3>Loading Calendar&hellip;</h3>
+          <p>Scroll here to load the booking calendar, or email Sam directly to schedule a session.</p>
+          <a class="btn" href="mailto:sam29anderson@yahoo.com?subject=Lacrosse%20Lesson%20Booking">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            Book by Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--navy" id="contact">
+    <div class="wrap contact-cta reveal">
+      <span class="eyebrow">Get In Touch</span>
+      <h2>Questions? Pricing?<br />Let's Talk.</h2>
+      <p>
+        Reach out anytime about scheduling, pricing, or anything else — I read and reply
+        to every message personally. The quickest way to get started is a direct email.
+      </p>
+      <a class="big-mail" href="mailto:sam29anderson@yahoo.com?subject=Lacrosse%20Lesson%20Inquiry">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        sam29anderson@yahoo.com
+      </a>
+      <div class="contact-cta__actions">
+        <a class="btn btn--lg" href="mailto:sam29anderson@yahoo.com?subject=Lacrosse%20Lesson%20Inquiry">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Email Sam
+        </a>
+        <a class="btn btn--lg btn--ghost" href="#book">View Dates &amp; Book</a>
+      </div>
+      <div class="contact-cta__info">
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>
+          <div><div class="k">Scheduling</div><div class="v">Book online — pick any open time</div></div>
+        </div>
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div><div class="k">Typical Location</div><div class="v">Homestead Soccer Fields, Fort Wayne IN (flexible)</div></div>
+        </div>
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <div><div class="k">Pricing</div><div class="v">Contact for pricing &amp; packages</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div class="marks">
+        <img class="hs" src="/assets/homestead-logo.webp" alt="Homestead Lacrosse" width="160" height="46" />
+        <span class="divider"></span>
+        <img class="rv" src="/assets/revolt-logo.webp" alt="Revolt Lacrosse" width="96" height="26" />
+      </div>
+      <div style="text-align: right">
+        <a href="mailto:sam29anderson@yahoo.com">sam29anderson@yahoo.com</a>
+        <small>&copy; 2026 Sam Anderson &middot; Private Lacrosse Lessons. Logos used with permission of Homestead &amp; Revolt Lacrosse.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Calendly lazy-load — inject iframe only when booking section is near viewport
+    const calSection = document.getElementById('book');
+    const calIo = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        const f = document.createElement('iframe');
+        f.src = 'https://calendly.com/sam29anderson/private-lessons?embed_type=Inline&hide_event_type_details=1&hide_gdpr_banner=1';
+        f.style.cssText = 'width:100%;height:700px;border:none';
+        f.title = 'Book a Lacrosse Lesson';
+        document.getElementById('cal-target').replaceWith(f);
+        calIo.disconnect();
+      }
+    }, { rootMargin: '200px' });
+    calIo.observe(calSection);
+  </script>
 </body>
 </html>
