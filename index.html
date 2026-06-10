@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="geo.region" content="US-IN" />
+  <meta name="geo.placename" content="Fort Wayne, Indiana" />
 
   <title>Private Lacrosse Lessons Fort Wayne IN | Coach Sam Anderson</title>
   <meta name="description" content="Private lacrosse lessons in Fort Wayne, Indiana with Coach Sam Anderson — head coach of Homestead Lacrosse and director of Revolt Lacrosse. Youth through college-age players, all skill levels. Book your session today." />
@@ -27,7 +29,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "name": "Sam Anderson Private Lacrosse Lessons",
     "description": "Private one-on-one lacrosse lessons in Fort Wayne, Indiana for youth through college-age players. Training covers stick skills, shooting, dodging, defense, and lacrosse IQ.",
     "url": "https://fortwaynelacrosselessons.com",
@@ -40,11 +42,13 @@
       "addressRegion": "IN",
       "addressCountry": "US"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Fort Wayne",
-      "containedInPlace": { "@type": "State", "name": "Indiana" }
-    },
+    "areaServed": [
+      { "@type": "City", "name": "Fort Wayne", "containedInPlace": { "@type": "State", "name": "Indiana" } },
+      { "@type": "AdministrativeArea", "name": "Allen County", "containedInPlace": { "@type": "State", "name": "Indiana" } },
+      { "@type": "City", "name": "New Haven", "containedInPlace": { "@type": "State", "name": "Indiana" } },
+      { "@type": "City", "name": "Leo-Cedarville", "containedInPlace": { "@type": "State", "name": "Indiana" } },
+      { "@type": "City", "name": "Huntertown", "containedInPlace": { "@type": "State", "name": "Indiana" } }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Lacrosse Lessons",
@@ -80,7 +84,56 @@
   }
   </script>
 
-  <link rel="icon" href="data:," />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much do private lacrosse lessons cost in Fort Wayne?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pricing for private lacrosse lessons with Coach Sam Anderson varies by session type and duration. Contact Sam directly at sam29anderson@yahoo.com for current pricing and package options — he responds personally to every inquiry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where are the lacrosse lessons located in Fort Wayne?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sessions are typically held at Homestead Soccer Fields in Fort Wayne, Indiana. Location is flexible — contact Coach Sam to confirm the spot for your session."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What age and skill levels are the private lacrosse lessons for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lessons are designed for youth through college-age players of all skill levels — from beginners picking up a stick for the first time to experienced players working toward a varsity or college spot."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do we work on in private lacrosse lessons?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each session is tailored to the athlete's goals and can cover stick skills and wall ball, shooting and dodging, defense and footwork, and lacrosse IQ and field vision. Every session starts with an honest look at where you are and builds a focused plan from there."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book a private lacrosse lesson with Coach Sam Anderson?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can book online using the calendar at fortwaynelacrosselessons.com, or email Coach Sam directly at sam29anderson@yahoo.com. He reads and replies to every message personally."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥍</text></svg>" />
   <link rel="preload" as="image"
         href="/assets/coach.webp"
         imagesrcset="/assets/coach-sm.webp 900w, /assets/coach.webp 1800w"
