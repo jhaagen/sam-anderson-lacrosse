@@ -1,5 +1,20 @@
 {
+  "mimeTypes": {
+    ".woff2": "font/woff2"
+  },
   "routes": [
+    {
+      "route": "/assets/fonts/*",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" }
+    },
+    {
+      "route": "/assets/*.webp",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" }
+    },
+    {
+      "route": "/",
+      "headers": { "Cache-Control": "no-cache" }
+    },
     { "route": "/*", "serve": "/index.html", "statusCode": 200 }
   ],
   "navigationFallback": {
